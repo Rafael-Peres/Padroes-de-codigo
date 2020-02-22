@@ -8,15 +8,25 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+      "pre-commit": "lint-staged"
     }
+  },
+  "lint-staged": {
+    "*.js, *.ts": [
+      "eslint --fix", "git add ."
+    ]
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "commitizen": "^4.0.3",
     "cz-conventional-changelog": "3.1.0",
-    "husky": "^4.2.3"
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-react": "^7.14.3",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.0.7"
   },
   "config": {
     "commitizen": {
