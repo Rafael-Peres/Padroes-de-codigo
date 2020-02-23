@@ -1,2 +1,1 @@
-# commit-patterns
-standardizing commits message on git
+# Automatizando Padrões de Código e mensagens de commit's
