@@ -30,6 +30,8 @@ Eu vou mostrar pra vocês como instalar e configurar cada um para utilizarmos no
 Ter o NodeJs, Git instalado. 
 
 ## Lintcommit
+O Commitlint é uma ferramenta automatizada que pode verificar o padrão de commit's e rejeitar o commit se ele não seguir o padrão definido.
+
 ## Commitizen
 ## Configurar Eslint
 ## Configurar Prettier
