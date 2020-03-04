@@ -33,6 +33,8 @@ Ter o NodeJs, Git instalado.
 O Commitlint é uma ferramenta automatizada que pode verificar o padrão de commit's e rejeitar o commit se ele não seguir o padrão definido.
 
 ## Commitizen
+O Commitizen é uma ferramenta simples que facilita a criação de mensagens de commit, é uma interface de linha de comando faz com que seus commit's saia de acordo com a convenção escolhida. Esta ferramenta economiza tempo e evita rejeiçoes do lintcommit.   
+
 ## Configurar Eslint
 ## Configurar Prettier
 ## Configurar Husky
